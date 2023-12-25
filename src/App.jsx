@@ -1,6 +1,7 @@
 import Hero from './components/Hero.jsx';
 import Demo from './components/Demo.jsx';
 import './App.css';
+import { useLazyGetSummaryQuery } from './services/article.js';
 
 const App = () => {
   return (
